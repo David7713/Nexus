@@ -1,0 +1,106 @@
+.hero-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: start;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero-section-text-part h1 {
+    font-size: 64px;
+    color: black;
+    margin-top: 30px;
+    margin-right: 130px;
+}
+
+#digital {
+    color: #E54A1B;
+}
+
+.hero-section-animation-part {
+    background-color: #E54A1B !important;
+    width: 400px;
+    height: 300px;
+    margin-top: 30px;
+    animation: pulse 5s infinite ease-in-out; /* Apply infinite animation */
+    border-radius: 30px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1); /* Original size */
+    }
+    50% {
+        transform: scale(1.1); /* Grows slightly */
+    }
+    100% {
+        transform: scale(1); /* Returns to original size */
+    }
+}
+
+.services-container {
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: #E54A1B;
+    color: white;
+    margin-top: 100px;
+}
+
+.services-list {
+    display: flex;
+    gap: 50px; /* Space between services */
+    animation: scroll 20s linear infinite; /* Infinite scrolling */
+}
+
+.service-item {
+    white-space: nowrap; /* Prevent line breaks */
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Adjust based on how many services you have */
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .hero-section-container {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .hero-section-text-part h1 {
+        font-size: 40px;
+        margin-right: 0;
+    }
+
+    .hero-section-animation-part {
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .services-container {
+        margin-top: 50px;
+    }
+
+    .services-list {
+        gap: 30px;
+        animation-duration: 15s;
+    }
+
+    .service-item {
+        font-size: 18px;
+    }
+}
+
+.video-nexus{
+    width: 600px;
+    height: 600px;
+}

@@ -1,0 +1,79 @@
+.footer-section {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  flex-wrap: wrap; /* Ensures content wraps on small screens */
+}
+
+.footer-section h1 {
+  font-size: 28px; /* Adjusted font size for h1 */
+  margin: 0;
+}
+
+.footer-section ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* Slightly reduced gap for balance */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section ul li {
+  font-size: 24px; /* Larger font size for readability */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-section ul li:hover {
+  transform: scale(1.3); /* Scale up the icon on hover */
+  color: #E54A1B; /* Change color on hover */
+}
+
+.footer-section div img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.footer-section .footer-text {
+  font-size: 16px; /* Adjusted font size for better fit */
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Media query for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .footer-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .footer-section h1 {
+    font-size: 22px; /* Reduced font size for h1 on mobile */
+  }
+
+  .footer-section ul {
+    justify-content: center;
+    gap: 20px; /* Maintain horizontal layout for social icons */
+  }
+
+  .footer-section ul li {
+    font-size: 20px; /* Slightly smaller font size for mobile */
+  }
+
+  .footer-section div img {
+    width: 120px; /* Slightly smaller logo for mobile */
+    height: auto;
+  }
+
+  .footer-section .footer-text {
+    font-size: 14px; /* Smaller font size for mobile */
+    margin-top: 20px; /* More space between text and icons */
+  }
+}

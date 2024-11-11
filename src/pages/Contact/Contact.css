@@ -1,0 +1,83 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-color: black;
+    color: white;
+    height: auto;
+    padding: 50px 20px; /* Added some padding for better spacing */
+}
+
+.contact-section h1 {
+    font-size: 48px; /* Reduced font size for h1 */
+    margin-top: 30px;
+}
+
+.contact-section h1 label {
+    color: #E54A1B;
+}
+
+.contact-section p {
+    font-size: 18px;
+    line-height: 1.5; /* Added line height for better readability */
+    max-width: 800px; /* Limit the width for better line length */
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center the list */
+    width: 100%;
+    max-width: 500px; /* Limit the width of the contact list */
+}
+
+.contact-section li {
+    margin-top: 15px;
+}
+
+.contact-icon {
+    color: #E54A1B;
+    margin-right: 10px;
+    transition: transform 0.3s; /* Smooth transition for scaling */
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px; /* Adjusted font size for links */
+    transition: transform 0.3s; /* Smooth transition for scaling */
+}
+
+/* Hover effect for scaling both icon and text */
+.contact-link:hover {
+    transform: scale(1.1); /* Scale up the entire link (icon + text) on hover */
+    color: #E54A1B;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .contact-section h1 {
+        font-size: 32px; /* Smaller font size for mobile */
+    }
+
+    .contact-section p {
+        font-size: 16px; /* Smaller font size for mobile */
+    }
+
+    .contact-section ul {
+        padding-left: 0;
+    }
+
+    .contact-link {
+        font-size: 16px; /* Smaller font size for mobile links */
+    }
+
+    .contact-icon {
+        font-size: 20px; /* Smaller icons for mobile */
+    }
+}

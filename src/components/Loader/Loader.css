@@ -1,0 +1,42 @@
+/* src/components/Loader.css */
+.loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.loading-text {
+    font-size: 50px; /* Large font size for loading text */
+    opacity: 1; /* Start fully opaque */
+    transition: opacity 0.3s ease; /* Smooth transition for fading effect */
+}
+
+.explore-button {
+    margin-top: 20px; /* Space between loading text and button */
+    padding: 10px 20px; /* Padding for button */
+    font-size: 16px; /* Font size */
+    border: 2px solid #E54A1B; /* Slim border with specified color */
+    border-radius: 5px; /* Rounded corners */
+    background: transparent; /* Transparent background */
+    color: #E54A1B; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s, opacity 0.5s; /* Smooth transitions */
+    opacity: 0; /* Initially hidden */
+    transform: translateY(-20px); /* Slightly translate up for animation */
+}
+
+.explore-button.show {
+    opacity: 1; /* Show the button */
+    transform: translateY(0); /* Bring it back to its original position */
+}
+
+.explore-button:hover {
+    background-color: rgba(229, 74, 27, 0.1); /* Light hover effect using the specified color */
+    transform: scale(1.05); /* Slightly increase the size on hover */
+    box-shadow: 0 4px 8px rgba(229, 74, 27, 0.3); /* Subtle shadow for a 3D effect */
+}

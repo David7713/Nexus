@@ -1,0 +1,230 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1000;
+}
+
+.logo-container {
+    z-index: 1001;
+}
+
+.logoImage {
+    width: 180px;
+    padding: 10px;
+}
+
+.nav-links-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 23px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-links li {
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links li:hover {
+    color: #E54A1B;
+    background-color: rgba(229, 74, 27, 0.1);
+    border-radius: 10px;
+    transform: translateY(-3px);
+}
+
+/* Mobile menu button */
+.mobile-menu-button {
+    display: none;
+    background: none;
+    border: none;
+    color: #E54A1B;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 1001;
+}
+
+/* Button group styles */
+.button-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 1001;
+}
+
+/* Contact button styles */
+.contact-button {
+    border-radius: 57px;
+    border: none;
+    background-color: #E54A1B;
+    cursor: pointer;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #D43E15;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Audio toggle styles */
+.audio-toggle {
+    border-radius: 50%;
+    border: none;
+    background-color: #E54A1B;
+    cursor: pointer;
+    color: white;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.audio-toggle:hover {
+    background-color: #D43E15;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.audio-toggle svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Mobile overlay */
+.mobile-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .navbar-container {
+        justify-content: space-between;
+        padding: 0 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white; /* Add your desired background color */
+        z-index: 1000;
+    }
+
+    .logoImage {
+        width: 140px;
+    }
+
+    .mobile-menu-button {
+        display: flex;
+    }
+
+    .mobile-overlay {
+        display: block;
+    }
+
+    .nav-links-container {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 100%;
+        max-width: 300px;
+        height: calc(100vh - 70px);
+        background-color: black;
+        transition: 0.3s ease;
+        overflow-y: auto; /* Enable scrolling within the menu if needed */
+    }
+
+    .nav-links-container.active {
+        right: 0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        border-radius: 0;
+        gap: 10px;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .nav-links li:hover {
+        transform: none;
+        background-color: rgba(229, 74, 27, 0.2);
+        border-radius: 0;
+    }
+
+    .button-group {
+        gap: 4px;
+    }
+
+    .contact-button {
+        display: none;
+    }
+
+    .audio-toggle {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* Add padding to body to prevent content from hiding under fixed navbar */
+    body {
+        padding-top: 80px;
+    }
+}
+
+/* Additional adjustments for very small screens */
+@media screen and (max-width: 480px) {
+    .logoImage {
+        width: 120px;
+    }
+
+    .nav-links-container {
+        max-width: 250px;
+    }
+}
+
+
+
+

@@ -1,0 +1,140 @@
+.detailed-view {
+    padding: 20px;
+}
+
+.portfolio-gallery {
+    margin-top: 40px;
+}
+
+.top-image {
+    margin-bottom: 30px; /* Space below the top image */
+    
+}
+
+.top-image img {
+    width: 100%; /* Full width for the top image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Add border radius */
+}
+
+.brand-history {
+    margin-bottom: 30px;
+}
+
+.brand-history h1 {
+    font-size: 2.5rem; /* Larger font size for the title */
+    color: #333; /* Dark color for the title */
+    margin-bottom: 15px; /* Space below the title */
+    text-align: center; /* Center the title */
+}
+
+.brand-history p {
+    font-size: 1.2rem; /* Font size for the paragraph */
+    color: #666; /* Lighter color for the text */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 20px; /* Space below the paragraph */
+    text-align: justify; /* Justify the paragraph text */
+    max-width: 800px; /* Max width to limit paragraph length */
+    margin-left: auto; /* Center align within the parent */
+    margin-right: auto; /* Center align within the parent */
+}
+
+.brand-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between items */
+}
+
+.brand-item {
+    flex: 1 1 100%; /* Default to full width */
+}
+
+.brand-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Target specific images using nth-child */
+.brand-item:nth-child(2),
+.brand-item:nth-child(3) {
+    flex: 1 1 48%; /* Side by side */
+}
+
+.brand-item:nth-child(8),
+.brand-item:nth-child(9) {
+    flex: 1 1 48%; /* Side by side */
+}
+.brand-item:nth-child(8) img,
+.brand-item:nth-child(9) img {
+    width: 100%; /* Full width within each half-sized container */
+}
+.brand-item:nth-child(2) img,
+.brand-item:nth-child(3) img {
+    width: 100%; /* Full width within each half-sized container */
+}
+
+.brand-item:nth-child(4) img,
+.brand-item:nth-child(5),
+.brand-item:nth-child(6) {
+    flex: 1 1 48%; /* Side by side */
+}
+
+.brand-item:nth-child(4) img,
+.brand-item:nth-child(5) img,
+.brand-item:nth-child(6) img {
+    width: 100%; /* Full width within each half-sized container */
+}
+
+
+.brand-item:nth-child(4) img,
+.brand-item:nth-child(5),
+.brand-item:nth-child(6) {
+    flex: 1 1 48%; /* Side by side */
+}
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .detailed-view {
+        padding: 10px;
+    }
+
+    .brand-history h1 {
+        font-size: 1.8rem; /* Smaller font size for mobile */
+    }
+
+    .brand-history p {
+        font-size: 1rem; /* Adjusted font size for readability */
+        max-width: 100%; /* Full width on smaller screens */
+    }
+
+    .brand-items {
+        gap: 10px; /* Reduced gap for better spacing */
+    }
+
+    .brand-item {
+        flex: 1 1 100%; /* Full width for mobile view */
+    }
+}
+
+/* Media Query for Laptops */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .detailed-view {
+        padding: 15px;
+    }
+
+    .brand-history h1 {
+        font-size: 2.2rem; /* Slightly smaller than the desktop */
+    }
+
+    .brand-history p {
+        font-size: 1.1rem; /* Slightly smaller for laptops */
+        max-width: 90%; /* Reduce max width slightly */
+    }
+
+    .brand-items {
+        gap: 15px; /* Adjusted gap */
+    }
+}

@@ -1,0 +1,98 @@
+.faq-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items */
+  justify-content: center;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px;
+  height: 100vh;
+  padding: 20px; /* Add some padding */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.faq-container h1 {
+  font-size: 64px;
+  color: black; /* Main accent color */
+  margin-bottom: 20px; /* Space between title and questions */
+  text-align: center; /* Center the title */
+}
+
+.questions {
+  flex: 1;
+  width: 100%; /* Ensure it takes full width */
+  max-width: 800px; /* Limit the width for better readability */
+}
+
+.faq-item {
+  margin: 10px 0;
+  padding: 15px; /* Increase padding for better touch target */
+  border-radius: 5px;
+  background-color: white; /* White background for each FAQ item */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for items */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  cursor: pointer;
+}
+
+.faq-item:hover {
+  background-color: #E54A1B; /* Change background on hover */
+  color: white; /* Change text color on hover */
+
+}
+.faq-item:hover .toggle-button{
+  color: white;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold; /* Bold text for questions */
+}
+
+.toggle-button {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #E54A1B; /* Use the accent color */
+  font-size: 30px;
+  transition: transform 0.3s; /* Smooth rotation transition */
+}
+
+.toggle-button:hover {
+  transform: scale(1.1); /* Scale effect on hover */
+}
+
+.faq-answer {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: white; /* Light background for answers */
+  border-radius: 4px;
+  border: 1px solid #E54A1B; /* Border matching accent color */
+  color: black; /* Text color for answers */
+}
+@media (max-width: 768px) {
+  .faq-container {
+    padding: 15px;
+    height: auto; /* Adjust height to accommodate content */
+  }
+
+  .faq-container h1 {
+    font-size: 36px; /* Reduce font size for smaller screens */
+  }
+
+  .questions {
+    width: 100%; /* Ensure it adapts to smaller screen sizes */
+    max-width: 100%; /* Allow full use of mobile screen width */
+  }
+
+  .faq-item {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .faq-question {
+    font-size: 18px; /* Reduce font size for better readability */
+  }
+
+  .faq-answer {
+    font-size: 16px; /* Adjust answer font size */
+  }
+}

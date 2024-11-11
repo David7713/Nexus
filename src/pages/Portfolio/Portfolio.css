@@ -1,0 +1,122 @@
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 0 20px; /* Padding for left and right to ensure the section isn't too close to the edges */
+}
+.portfolio-section h1 {
+  font-size: 64px;
+  margin-top: 30px;
+}
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  width: 500px;
+  height: 500px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.portfolio-item div {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 10px; /* Adds space between the div and the label */
+  border-radius: 30px;
+}
+
+/* Add specific background colors to each item */
+.portfolio-item:nth-child(1) div {
+  background-color: #FFC75A; /* Yellow */
+  margin-right: 300px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.portfolio-item:nth-child(2) div {
+  background-color: #000000; /* Black */
+}
+
+.portfolio-item:nth-child(3) div {
+  background-color: #6592B3; /* Blue */
+}
+
+.portfolio-item:nth-child(4) div {
+  background-color: yellow; /* Orange */
+}
+
+.portfolio-item:nth-child(odd) {
+  align-self: flex-start;
+}
+
+.portfolio-item:nth-child(even) {
+  align-self: flex-end;
+}
+
+.portfolio-item label {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center; /* Ensures text is centered */
+  width: 100%; /* Ensures the label spans the full width of the container */
+  display: flex;
+  justify-content: center; /* Centers the text within the label */
+  margin-top: 10px; /* Adjust spacing between the label and the image if needed */
+  cursor: pointer;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .portfolio-section {
+    margin-top: 30px;
+    padding: 0 10px;
+  }
+
+  .portfolio-section h1 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  .portfolio-container {
+    gap: 10px;
+  }
+
+  .portfolio-item {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+  }
+
+  .portfolio-item div {
+    height: 400px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+  }
+
+  .portfolio-item:nth-child(1) div {
+    margin-right: 0;
+  }
+
+  .portfolio-item label {
+    font-size: 14px;
+  }
+}

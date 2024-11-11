@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxs;
+}
+
+
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer-contact-section{
+  background-color: black;
+}
+
+a {
+  color: inherit; /* or specify a color like 'color: black;' */
+  text-decoration: none;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}

@@ -22,7 +22,7 @@ const Footer = () => {
       <ul className='social-icons'>
         <a target='_blank' href='https://www.facebook.com/nexusagancy'><li><FaFacebook /></li></a>
         <a target='_blank' href='https://www.instagram.com/nexus_digital_marketing_agency/'><li><FaInstagram /></li></a>
-        <a href=''><li><FaLinkedin /></li></a>
+        <a target='_blank' href='https://www.linkedin.com/company/nexus-digital-marketing-solution/posts/?feedView=all'><li><FaLinkedin /></li></a>
       </ul>
       <label className='footer-text'>© {currentYear} Nexus · All rights reserved.</label>
     </div>

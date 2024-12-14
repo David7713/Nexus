@@ -19,6 +19,7 @@
     flex-direction: column;
     gap: 20px; /* Adjusts spacing between elements */
     max-width: 600px; /* Limits the width of the text section */
+    opacity: 86%;
 }
 
 .about-section-text-part h1 {

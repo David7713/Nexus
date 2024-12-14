@@ -27,7 +27,7 @@ const Services = () => {
         </div>
         <p className='service-description'>Drive traffic with targeted pay-per-click campaigns.</p>
         <div className='service-animation'>
-          <img src={seo} alt='SEO Service' />
+          {/* <img src={seo} alt='SEO Service' /> */}
         </div>
       </div>
 
@@ -42,7 +42,7 @@ const Services = () => {
         </div>
         <p className='service-description'>Drive traffic with targeted pay-per-click campaigns.</p>
         <div className='service-animation'>
-          <img src={smm} alt='SMM Service' />
+          {/* <img src={smm} alt='SMM Service' /> */}
         </div>
       </div>
 
@@ -74,7 +74,7 @@ const Services = () => {
         </div>
         <p className='service-description'>Drive traffic with targeted pay-per-click campaigns.</p>
         <div className='service-animation'>
-          <img src={webdev} alt='Web Development Service' />
+          {/* <img src={webdev} alt='Web Development Service' /> */}
         </div>
       </div>
 
@@ -89,7 +89,7 @@ const Services = () => {
         </div>
         <p className='service-description'>Drive traffic with targeted pay-per-click campaigns..</p>
         <div className='service-animation'>
-          <img src={branding} alt='Branding Service' />
+          {/* <img src={branding} alt='Branding Service' /> */}
         </div>
       </div>
 
@@ -104,7 +104,7 @@ const Services = () => {
         </div>
         <p className='service-description'>Drive traffic with targeted pay-per-click campaigns.</p>
         <div className='service-animation'>
-          <img src={uiux} alt='UI & UX Design Service' />
+          {/* <img src={uiux} alt='UI & UX Design Service' /> */}
         </div>
       </div>
 
@@ -119,7 +119,7 @@ const Services = () => {
         </div>
         <p className='service-description'>Drive traffic with targeted pay-per-click campaigns.</p>
         <div className='service-animation'>
-          <img src={reel} alt='Reel Making Service' />
+          {/* <img src={reel} alt='Reel Making Service' /> */}
         </div>
       </div>
 
@@ -134,7 +134,7 @@ const Services = () => {
         </div>
         <p className='service-description'>Drive traffic with targeted pay-per-click campaigns.</p>
         <div className='service-animation'>
-          <img src={ppc} alt='PPC Service' />
+          {/* <img src={ppc} alt='PPC Service' /> */}
         </div>
       </div>
 
@@ -149,7 +149,7 @@ const Services = () => {
         </div>
         <p className='service-description'>Drive traffic with targeted pay-per-click campaigns.</p>
         <div className='service-animation'>
-          <img src={email} alt='Email Marketing Service' />
+          {/* <img src={email} alt='Email Marketing Service' /> */}
         </div>
       </div>
     </div>

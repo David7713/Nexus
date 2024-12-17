@@ -4,12 +4,12 @@
     justify-content: space-around;
     text-align: start;
     align-items: center;
+    height: 81.5vh;
 }
 
 .hero-section-text-part h1 {
     font-size: 64px;
     color: black;
-    margin-top: 30px;
     margin-right: 130px;
 }
 
@@ -42,7 +42,7 @@
     overflow: hidden;
     background-color: #E54A1B;
     color: white;
-    margin-top: 70px;
+
 }
 
 .services-list {

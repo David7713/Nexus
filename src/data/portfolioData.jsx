@@ -83,22 +83,7 @@ const portfolioData = {
     ],
     title: 'Duson',
     description: 'At Timeless Furniture Co., we believe that furniture is more than just functional; it is an expression of who you are and how you live. Founded in 2005 by a team of passionate artisans and designers, our journey began with a simple mission: to create beautifully crafted, high-quality furniture that stands the test of time,At Timeless Furniture Co., we believe that furniture is more than just functional; it is an expression of who you are and how you live. Founded in 2005 by a team of passionate artisans and designers, our journey began with a simple mission: to create beautifully crafted, high-quality furniture that stands the test of timeAt Timeless Furniture Co., we believe that furniture is more than just functional; it is an expression of who you are and how you live. Founded in 2005 by a team of passionate artisans and designers, our journey began with a simple mission: to create beautifully crafted, high-quality furniture that stands the test of time '
-  },
-
-
-  'Duson': {
-    images: [
-      DusonBilboard2,
-      DusonBilboard1,
-      DusonAd,
-      DusonDiscount,
-      DusonPoster,
-      DusonHome,
-      DusonProduct
-    ],
-    title: 'Duson',
-    description: 'At Timeless Furniture Co., we believe that furniture is more than just functional; it is an expression of who you are and how you live. Founded in 2005 by a team of passionate artisans and designers, our journey began with a simple mission: to create beautifully crafted, high-quality furniture that stands the test of time,At Timeless Furniture Co., we believe that furniture is more than just functional; it is an expression of who you are and how you live. Founded in 2005 by a team of passionate artisans and designers, our journey began with a simple mission: to create beautifully crafted, high-quality furniture that stands the test of timeAt Timeless Furniture Co., we believe that furniture is more than just functional; it is an expression of who you are and how you live. Founded in 2005 by a team of passionate artisans and designers, our journey began with a simple mission: to create beautifully crafted, high-quality furniture that stands the test of time '
-  },
+  }
 };
 
 export default portfolioData;

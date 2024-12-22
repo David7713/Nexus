@@ -40,15 +40,7 @@ const Portfolio = () => {
           </Link>
         </div>
 
-        
-        <div className='portfolio-item'>
-          <Link to="/portfolio/Duson">
-            <div>
-            <img src={DusonCover} alt="Doorman Project" />
-            </div>
-            <label>Duson</label>
-          </Link>
-        </div>
+     
       </div>
     </div>
   );

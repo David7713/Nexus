@@ -11,7 +11,7 @@ const Contact = () => {
       </h1>
       <p>
         Let’s create something amazing together. Reach out to discuss your project <br /> 
-        and see how Evo Design Studio can help your SaaS startup succeed.
+        and see how Nexus  can help your brand to succeed.
       </p>
       <ul>
         <li>

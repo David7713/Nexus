@@ -1,13 +1,40 @@
-import React from 'react';
-import Lottie from 'lottie-react'; // Import as default export
-import teamAnimation from '../../assets/teamAnimation1.json'
+import React, { useEffect, useRef, useState } from 'react';
+import Lottie from 'lottie-react';
+import teamAnimation from '../../assets/teamAnimation1.json';
 import './About.css';
 
 const About = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.3 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
   return (
-    <div className="about-section" id='About'>
+    <div 
+      className="about-section" 
+      id="About" 
+      ref={sectionRef}
+    >
       <div className="about-section-image-part">
-    
         <Lottie 
           animationData={teamAnimation} 
           loop={true} 
@@ -15,7 +42,7 @@ const About = () => {
         />
       </div>
 
-      <div className="about-section-text-part">
+      <div className={`about-section-text-part ${isVisible ? 'animate' : ''}`}>
         <h1>About Us</h1>
         <p>
           We are a Yerevan-based digital marketing agency dedicated to helping businesses grow and thrive. 

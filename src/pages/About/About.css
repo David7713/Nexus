@@ -94,3 +94,41 @@
         font-size: 16px;
     }
 }
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-section-text-part h1,
+.about-section-text-part h2,
+.about-section-text-part p,
+.about-section-text-part ul {
+    opacity: 0; /* Initially hidden */
+    transform: translateY(-30px); /* Offset for slide-in effect */
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.about-section-text-part.animate h1,
+.about-section-text-part.animate h2,
+.about-section-text-part.animate p,
+.about-section-text-part.animate ul {
+    opacity: 1;
+    transform: translateY(0);
+}

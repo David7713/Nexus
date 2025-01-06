@@ -1,11 +1,11 @@
-// src/components/Loader.js
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import './Loader.css';
 
 const Loader = ({ onClick }) => {
     const [progress, setProgress] = useState(0);
     const [loading, setLoading] = useState(true);
     const [showButton, setShowButton] = useState(false);
+    const audioRef = useRef(null);  // Reference to store the audio instance
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -13,20 +13,30 @@ const Loader = ({ onClick }) => {
                 if (prev >= 100) {
                     clearInterval(interval);
                     setLoading(false);
-                    setShowButton(true); // Show button after loading
+                    setShowButton(true);
                     return 100;
                 }
-                return prev + 1; // Increment by 1% every 30ms
+                return prev + 1;
             });
-        }, 30); // Adjust speed by changing the interval timing
+        }, 30);
 
-        return () => clearInterval(interval);
+        return () => {
+            clearInterval(interval);
+            if (audioRef.current) {
+                audioRef.current.pause();  // Stop audio if the component unmounts
+                audioRef.current.currentTime = 0;  // Reset audio to start
+            }
+        };
     }, []);
 
     const handleExploreClick = () => {
-        const audio = new Audio('path/to/sound.mp3'); // Update with your sound file path
-        audio.play();
-        onClick(); // Call the onClick function passed as prop
+        if (audioRef.current) {
+            audioRef.current.pause();
+            audioRef.current.currentTime = 0;
+        }
+        audioRef.current = new Audio('path/to/sound.mp3');  // Create new audio instance
+        audioRef.current.play();
+        onClick();
     };
 
     return (
@@ -39,7 +49,7 @@ const Loader = ({ onClick }) => {
                         className={`explore-button ${showButton ? 'show' : ''}`}
                         onClick={handleExploreClick}
                     >
-                        Explore
+                    Enter with Sound
                     </button>
                 )
             )}

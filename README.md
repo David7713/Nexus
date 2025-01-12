@@ -6,13 +6,12 @@ I created this website for Nexus Digital Marketing Agency to showcase their serv
 
 This project reflects my process of turning ideas into functional, responsive, and visually appealing websites, focusing on simplicity and usability to deliver the best user experience.
 
-  ## Rare Watch Store
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Main.png?raw=true)
+  ## Nexus Agency
+![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Screenshot_2.png?raw=true)
 
 
 
 ## Front End
-
 
 
 ![HTML](https://img.shields.io/badge/-HTML-orange?logo=html5&logoColor=white)
@@ -21,16 +20,13 @@ This project reflects my process of turning ideas into functional, responsive, a
 
 ![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white)
 
-## Back End
-
-![Firebase](https://img.shields.io/badge/-Firebase-orange?logo=firebase&logoColor=white)
 
 ## Installation
 
 Install my-project with npm
 
 ```bash
-  git clone https://github.com/David7713/Rare.git
+  git clone https://github.com/David7713/Nexus.git
   cd nexus
   npm install
   npm run dev
@@ -49,30 +45,18 @@ Install my-project with npm
 
 ## Screenshots
    ## Home
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Home.png?raw=true)
+![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Screenshot_2.png?raw=true)
 
-   ## Shop
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Shop.png?raw=true)
+   ## FAQ
+![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Screenshot_4.png?raw=true)
 
-   ## Detail
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Detail.png?raw=true)
 
-   ## Login
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Login.png?raw=true)
+   ## Mobile 
+![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Screenshot_3.png?raw=true)
 
-   ## Cart
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Cart.png?raw=true)
-
-   ## About
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/About.png?raw=true)
-
-   ## Contact
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Contact1.png?raw=true)
-
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Contact2.png?raw=true)
 
    ## Footer
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Footer.png?raw=true)
+![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Screenshot_5.png?raw=true)
 
 
 

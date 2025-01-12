@@ -11,6 +11,7 @@
     font-size: 64px;
     color: black;
     margin-right: 130px;
+
 }
 
 #digital {
@@ -77,6 +78,7 @@
     .hero-section-text-part h1 {
         font-size: 40px;
         margin-right: 0;
+        margin-top: 50px;
     }
 
     .hero-section-animation-part {

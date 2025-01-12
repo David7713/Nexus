@@ -7,7 +7,7 @@ I created this website for Nexus Digital Marketing Agency to showcase their serv
 This project reflects my process of turning ideas into functional, responsive, and visually appealing websites, focusing on simplicity and usability to deliver the best user experience.
 
   ## Nexus Agency
-![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Screenshot_2.png?raw=true)
+![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Main.png?raw=true)
 
 
 

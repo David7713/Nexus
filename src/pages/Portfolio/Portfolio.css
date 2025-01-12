@@ -43,7 +43,7 @@
 /* Add specific background colors to each item */
 .portfolio-item:nth-child(1) div {
   background-color: #FFC75A; /* Yellow */
-  margin-right: 300px;
+
 }
 img {
   width: 100%;
@@ -112,9 +112,7 @@ img {
     border-radius: 20px;
   }
 
-  .portfolio-item:nth-child(1) div {
-    margin-right: 0;
-  }
+ 
 
   .portfolio-item label {
     font-size: 14px;

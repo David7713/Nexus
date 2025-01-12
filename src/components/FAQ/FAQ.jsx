@@ -19,7 +19,7 @@ const FAQ = () => {
     },
     { 
       question: "How do I get started with your services?", 
-      answer: "You can get started by contacting us through our website or phone to schedule a consultation. We’ll discuss your goals and tailor a strategy that fits your business." 
+      answer: "You can get started by contacting us through email or  phone call to schedule a consultation. We’ll discuss your goals and tailor a strategy that fits your business." 
     },
     { 
       question: "How can digital marketing help my business?", 

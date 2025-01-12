@@ -17,7 +17,8 @@ const Contact = () => {
         <li>
           <a href="mailto:nexusnexusagancy@gmail.com" className='contact-link'>
             <MdEmail className='contact-icon' />
-            nexusnexusagancy@gmail.com
+            nexusagancy@gmail.com
+
           </a>
         </li>
         <li>

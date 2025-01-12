@@ -10,6 +10,7 @@ const Preloader = ({ children }) => {
     useEffect(() => {
         const audioFile = new Audio('/nexus.mp3');
         audioFile.loop = true;
+        audioFile.volume = 0.4; 
         setAudio(audioFile);
 
         const timeout = setTimeout(() => {

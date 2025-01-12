@@ -55,7 +55,7 @@ const portfolioData = {
      DoormanDocument
     ],
     title: 'Doorman',
-    description: 'A detailed description of the Doorman project, highlighting its journey, challenges, and unique aspects of the project.A detailed description of the Doorman project, highlighting its journey, challenges, and unique aspects of the project.A detailed description of the Doorman project, highlighting its journey, challenges, and unique aspects of the project.',
+    description: 'Doorman is a company that sells and manufactures doors. We worked with them to help improve their brand and marketing. For this project, we created several design materials, including banners, posters, business cards, and a new logo. We also designed shirts and vehicle graphics to help promote their business. By understanding their needs, we were able to provide creative solutions that helped them connect with their customers and stand out in the market',
   },
   NoHo: {
     images: [
@@ -67,7 +67,7 @@ const portfolioData = {
       
     ],
     title: 'NoHo',
-    description: 'A detailed description of the NoHo project, showcasing its design and development process.A detailed description of the NoHo project, showcasing its design and development process.A detailed description of the NoHo project, showcasing its design and development process.A detailed description of the NoHo project, showcasing its design and development process.',
+    description: 'NoHo is a cleaning and shine service based in Los Angeles, California. For this project, we designed a website, logo, business cards, and shirt designs for the company. Our creative solutions helped NoHo enhance their brand visibility and establish a strong online presence, which contributed greatly to their growth and success',
   },
 
 
@@ -82,7 +82,7 @@ const portfolioData = {
       DusonProduct
     ],
     title: 'Duson',
-    description: 'At Timeless Furniture Co., we believe that furniture is more than just functional; it is an expression of who you are and how you live. Founded in 2005 by a team of passionate artisans and designers, our journey began with a simple mission: to create beautifully crafted, high-quality furniture that stands the test of time,At Timeless Furniture Co., we believe that furniture is more than just functional; it is an expression of who you are and how you live. Founded in 2005 by a team of passionate artisans and designers, our journey began with a simple mission: to create beautifully crafted, high-quality furniture that stands the test of timeAt Timeless Furniture Co., we believe that furniture is more than just functional; it is an expression of who you are and how you live. Founded in 2005 by a team of passionate artisans and designers, our journey began with a simple mission: to create beautifully crafted, high-quality furniture that stands the test of time '
+    description: 'Duson is a mattress manufacturer that focuses on delivering comfort and quality in every product. For this project, we created a series of eye-catching posts for social media to help boost their online visibility and engage with their audience. Our design solutions have played a key role in enhancing their brand presence and attracting more customers. '
   }
 };
 

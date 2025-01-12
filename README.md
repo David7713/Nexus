@@ -6,13 +6,12 @@ I created this website for Nexus Digital Marketing Agency to showcase their serv
 
 This project reflects my process of turning ideas into functional, responsive, and visually appealing websites, focusing on simplicity and usability to deliver the best user experience.
 
-  ## Rare Watch Store
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Main.png?raw=true)
+  ## Nexus Agency
+![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Screenshot_2.png?raw=true)
 
 
 
 ## Front End
-
 
 
 ![HTML](https://img.shields.io/badge/-HTML-orange?logo=html5&logoColor=white)
@@ -21,16 +20,13 @@ This project reflects my process of turning ideas into functional, responsive, a
 
 ![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white)
 
-## Back End
-
-![Firebase](https://img.shields.io/badge/-Firebase-orange?logo=firebase&logoColor=white)
 
 ## Installation
 
 Install my-project with npm
 
 ```bash
-  git clone https://github.com/David7713/Rare.git
+  git clone https://github.com/David7713/Nexus.git
   cd nexus
   npm install
   npm run dev

@@ -49,30 +49,18 @@ Install my-project with npm
 
 ## Screenshots
    ## Home
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Home.png?raw=true)
+![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Screenshot_2.png?raw=true)
 
-   ## Shop
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Shop.png?raw=true)
+   ## FAQ
+![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Screenshot_4.png?raw=true)
 
-   ## Detail
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Detail.png?raw=true)
 
-   ## Login
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Login.png?raw=true)
+   ## Mobile 
+![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Screenshot_3.png?raw=true)
 
-   ## Cart
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Cart.png?raw=true)
-
-   ## About
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/About.png?raw=true)
-
-   ## Contact
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Contact1.png?raw=true)
-
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Contact2.png?raw=true)
 
    ## Footer
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Footer.png?raw=true)
+![App Screenshot](https://github.com/David7713/Nexus/blob/main/src/assets/Screenshots/Screenshot_5.png?raw=true)
 
 
 

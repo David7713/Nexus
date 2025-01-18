@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     height: 70px;
+    width: 100%;
     margin-top: 10px;
     position: relative;
     z-index: 1000;
@@ -135,24 +136,35 @@
 /* Media Queries */
 @media screen and (max-width: 768px) {
     .navbar-container {
-        justify-content: space-between;
-        padding: 0 20px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        background-color: white; /* Add your desired background color */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Space between items for proper alignment */
+        align-items: center;
+        text-align: center;
+        height: 70px;
+        width: 100%;
+        margin-top: 10px;
+        position: relative;
         z-index: 1000;
-        margin-top: 0;
+        padding: 0 20px; /* Add padding to the container for spacing */
     }
-
+    
+    .mobile-menu-button {
+        display: flex;
+        margin-left: auto; /* Automatically move it to the right */
+        align-items: center; /* Ensure it's vertically aligned */
+        justify-content: center;
+        background: none;
+        border: none;
+        color: #E54A1B;
+        cursor: pointer;
+        padding: 8px;
+        z-index: 1001;
+    }
     .logoImage {
         width: 140px;
     }
 
-    .mobile-menu-button {
-        display: flex;
-    }
 
     .mobile-overlay {
         display: block;

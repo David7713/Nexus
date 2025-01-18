@@ -95,13 +95,7 @@ const NavigationBar = () => {
           >
             Contact Us
           </button>
-          <button 
-            className="audio-toggle"
-            onClick={toggleAudio}
-            aria-label={isPlaying ? 'Mute audio' : 'Play audio'}
-          >
-            {isPlaying ? <Volume2 size={20} /> : <VolumeX size={20} />}
-          </button>
+        
         </div>
       </nav>
     </>

@@ -8,8 +8,8 @@ const Preloader = ({ children }) => {
     const { setAudio, toggleAudio } = useAudio();
 
     useEffect(() => {
-        const audioFile = new Audio('/nexus.mp3');
-        audioFile.loop = true;
+        const audioFile = new Audio('/click.mp3');
+
         audioFile.volume = 0.4; 
         setAudio(audioFile);
 
